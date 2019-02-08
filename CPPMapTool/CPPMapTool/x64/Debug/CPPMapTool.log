@@ -1,0 +1,14 @@
+﻿  CPPMapTool.cpp
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\cppmaptool.cpp(116): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\cppmaptool.cpp(117): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\cppmaptool.cpp(126): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\cppmaptool.cpp(259): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\cppmaptool.cpp(260): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Tile.cpp
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\tile.cpp(9): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\tile.cpp(71): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+c:\users\hislittlecuzin\documents\magnum\cppmaptool\cppmaptool\tile.cpp(74): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+  hlcFiles.cpp
+  The contents of <charconv> are only available with C++17 or later.
+  Generating Code...
+  CPPMapTool.vcxproj -> C:\Users\hislittlecuzin\Documents\Magnum\CPPMapTool\x64\Debug\CPPMapTool.exe
