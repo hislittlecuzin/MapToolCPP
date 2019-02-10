@@ -21,7 +21,7 @@ void Files::ReadFile(fstream &fs, vector<Tile> &tiles) {
 
 		switch (ch) {
 		case ';':
-		case '\n':
+		//case '\n': //Not needed. Can fek things up with vectorIndex++
 			tileDataIndex = 0;
 			vectorIndex++;
 			break;
@@ -30,13 +30,13 @@ void Files::ReadFile(fstream &fs, vector<Tile> &tiles) {
 				tileData[tileDataIndex] = ch - 48;//std::stoi(std::string(&ch, 1));
 			}
 			else {
-				cout << endl << "ERROR! Value of character is not a digit." << endl;
+				cout << endl << "ERROR! Value of character is not a digit: " << ch << endl;
 				tileData[tileDataIndex] = -1;
 				noErrors = false;
 			}
 			cout << tileDataIndex << endl;
 			tileDataIndex++;
-				break;
+			break;
 		}
 
 
@@ -135,7 +135,8 @@ void Files::WriteFile(fstream &fs, vector<Tile> &tiles, string fileName) {
 		
 		//fs << reinterpret_cast<char*>(tiles[i].GetA()) << reinterpret_cast <char*>(0) << reinterpret_cast <char*>(0) << ';';
 		//fs << data;
-
+		if (i % oneLine == 0 && i > 0)
+			fs << "\n";
 		fs << tiles[i].GetA() << "00;";
 	}
 }
