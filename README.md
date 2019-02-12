@@ -16,7 +16,7 @@ Example:
 5. go to console & type "SAVE"
 6. Type "DIR"
 7. paste directory (ex: "C:/users/name/documents")
-8. Type / filename.txt (Finished example "C:/users/name/documents/NewMap.txt)
+8. Type / filename.txt (Finished example "F:/documents/NewMap.txt) //Note that the C:/ Drive may not save your files. 
 
 Same process works for loading.
 
